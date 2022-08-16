@@ -48,7 +48,7 @@ body {
 
 /* general class */
 .section-padding{
-  padding: 4.8rem 2rem;
+  padding: 3rem 1.5rem;
 }
 .heading{
   font-weight: 600;
@@ -72,6 +72,7 @@ body {
   margin-bottom: 1rem;
 }
 .description {
+
   margin: 0 auto;
   text-align: center;
   line-height: 1.6;
@@ -133,6 +134,8 @@ header .logo {
 .intro-section .description {
   width: 60%;
   margin: 0;
+}
+.features-list .description{
   text-align: left;
 }
 .text-box .features-list {
@@ -225,6 +228,9 @@ footer ul li {
   .thrid-heading{
     text-align: center;
   }
+  .features-list .description{
+  text-align: center;
+}
   .workflow-features{
     flex-direction: column;
   }
@@ -247,7 +253,5 @@ footer ul li {
   .header-background-mobile{
     display: block;
   }
-  .section-padding{
-    padding: 3.2rem 2;
-  }
+ 
 }
